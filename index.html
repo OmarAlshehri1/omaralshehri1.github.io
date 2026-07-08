@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Professional software engineering portfolio for Omar Alshehri, featuring web projects, contact details, and a polished one-page experience."
+    >
+    <title>Omar Alshehri | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="preload" as="image" href="assets/images/optimized/profile-portrait-fast.png?v=1" fetchpriority="high">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="ambient-layer" aria-hidden="true">
+        <span class="ambient-beam beam-one"></span>
+        <span class="ambient-beam beam-two"></span>
+        <span class="ambient-beam beam-three"></span>
+        <span class="ambient-grid"></span>
+        <span class="ambient-square square-one"></span>
+        <span class="ambient-square square-two"></span>
+        <span class="ambient-square square-three"></span>
+        <span class="ambient-square square-four"></span>
+        <span class="ambient-dot dot-one"></span>
+        <span class="ambient-dot dot-two"></span>
+        <span class="ambient-dot dot-three"></span>
+        <pre class="code-snippet code-one"><code>&lt;section class="section-block" id="projects"&gt;
+  &lt;h2 data-i18n="projects.title"&gt;Projects&lt;/h2&gt;
+&lt;/section&gt;</code></pre>
+        <pre class="code-snippet code-two"><code>.beam-three {
+  bottom: 18%;
+  left: 22%;
+  width: 36vw;
+  background: linear-gradient(...);
+}</code></pre>
+        <pre class="code-snippet code-three"><code>.project-card:hover {
+  border-color: rgba(var(--project-accent-rgb), 0.42);
+  transform: translateY(-8px);
+}</code></pre>
+        <pre class="code-snippet code-four"><code>&lt;form id="contactForm" class="contact-form"
+  method="POST" novalidate&gt;</code></pre>
+        <pre class="code-snippet code-five"><code>.portrait-frame::before {
+  background: radial-gradient(...);
+  animation: portraitAura 9s ease-in-out infinite;
+}</code></pre>
+        <span class="ambient-noise"></span>
+    </div>
+
+    <div class="project-spotlight" aria-hidden="true"></div>
+
+    <div class="language-switcher" data-language-switcher>
+        <button
+            id="languageToggle"
+            class="language-toggle"
+            type="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="languageMenu"
+            aria-label="Choose language"
+            data-i18n-attr="aria-label:language.toggleLabel"
+        >
+            <span id="currentLanguageFlag" class="language-flag" aria-hidden="true">🇺🇸</span>
+            <span id="currentLanguageLabel">English</span>
+            <span class="language-chevron" aria-hidden="true">▾</span>
+        </button>
+        <div id="languageMenu" class="language-menu" role="menu" hidden>
+            <button class="language-option active" type="button" role="menuitemradio" aria-checked="true" data-lang="en">
+                <span class="language-flag" aria-hidden="true">🇺🇸</span>
+                <span>English</span>
+            </button>
+            <button class="language-option" type="button" role="menuitemradio" aria-checked="false" data-lang="ar">
+                <span class="language-flag" aria-hidden="true">🇸🇦</span>
+                <span>العربية</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="page-shell">
+        <header class="site-header" id="about">
+            <nav class="top-nav" aria-label="Primary navigation" data-i18n-attr="aria-label:nav.label">
+                <a href="#about" class="nav-link active" data-i18n="nav.about">About</a>
+                <a href="#projects" class="nav-link" data-i18n="nav.projects">Projects</a>
+                <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+            </nav>
+
+            <div class="hero-panel">
+                <div class="hero-name-block">
+                    <h1 class="typing-text typing-name" data-i18n="hero.name"><span>Omar</span><span>Alshehri</span></h1>
+                </div>
+                <div class="hero-portrait">
+                    <div class="portrait-frame">
+                        <span class="portrait-orbit triangle-one" aria-hidden="true"></span>
+                        <span class="portrait-orbit triangle-two" aria-hidden="true"></span>
+                        <span class="portrait-orbit triangle-three" aria-hidden="true"></span>
+                        <span class="portrait-dot p-dot-one" aria-hidden="true"></span>
+                        <span class="portrait-dot p-dot-two" aria-hidden="true"></span>
+                        <span class="portrait-dot p-dot-three" aria-hidden="true"></span>
+                        <span class="portrait-cross cross-one" aria-hidden="true"></span>
+                        <span class="portrait-cross cross-two" aria-hidden="true"></span>
+                        <span class="portrait-symbol symbol-one" aria-hidden="true">{ }</span>
+                        <span class="portrait-symbol symbol-two" aria-hidden="true">;</span>
+                        <span class="portrait-symbol symbol-three" aria-hidden="true">[ ]</span>
+                        <span class="portrait-symbol symbol-four" aria-hidden="true">&lt; &gt;</span>
+                        <span class="portrait-symbol symbol-five" aria-hidden="true">,</span>
+                        <span class="portrait-symbol symbol-six" aria-hidden="true">]</span>
+                        <span class="portrait-symbol symbol-seven" aria-hidden="true">[{</span>
+                        <span class="portrait-symbol symbol-eight" aria-hidden="true">]}&gt;</span>
+                        <span class="portrait-symbol symbol-nine" aria-hidden="true">:;</span>
+                        <span class="portrait-symbol symbol-ten" aria-hidden="true">{]</span>
+                        <span class="portrait-symbol symbol-eleven" aria-hidden="true">&gt;:</span>
+                        <span class="portrait-symbol symbol-twelve" aria-hidden="true">[;</span>
+                        <span class="portrait-symbol symbol-thirteen" aria-hidden="true">}&gt;</span>
+                        <span class="portrait-symbol symbol-fourteen" aria-hidden="true">::</span>
+                        <img src="assets/images/optimized/profile-portrait-fast.png?v=1" width="1070" height="1200" alt="Profile portrait of Omar Alshehri" data-i18n-attr="alt:hero.portraitAlt" fetchpriority="high" loading="eager" decoding="async">
+                    </div>
+                </div>
+                <div class="hero-title-block">
+                    <p class="hero-title typing-text typing-title" data-i18n="hero.title"><span>Web &amp;</span><span>Front-End Developer</span></p>
+                </div>
+                <p class="hero-intro" data-i18n="hero.introOne">
+                    Software Engineering student at King Fahd University of Petroleum & Minerals (KFUPM) with practical experience in web design and front-end development. Through my personal project Velonweb, I built responsive websites for companies and offices, with a focus on clean design, usability, and real client needs.
+                </p>
+
+                <ul class="contact-rail" aria-label="Social links" data-i18n-attr="aria-label:social.label">
+                    <li>
+                        <a href="https://www.linkedin.com/in/omaralshehri-web/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <span class="icon-frame">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M6.94 8.5v8.56H4.09V8.5h2.85Zm.19-2.64c0 .82-.62 1.48-1.62 1.48S3.9 6.68 3.9 5.86c0-.83.64-1.48 1.64-1.48s1.57.65 1.59 1.48ZM20.1 12.07v4.99h-2.84v-4.66c0-1.17-.42-1.97-1.47-1.97-.8 0-1.28.54-1.49 1.06-.08.18-.1.43-.1.69v4.88h-2.84s.04-7.92 0-8.56h2.84v1.21c.38-.58 1.06-1.4 2.58-1.4 1.89 0 3.32 1.23 3.32 3.87Z"/>
+                                </svg>
+                            </span>
+                            <span>LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:Alshehri2292@gmail.com" aria-label="Email" data-i18n-attr="aria-label:social.email">
+                            <span class="icon-frame">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M3 5.5h18a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1Zm0 2v.2l9 5.84 9-5.84v-.2H3Zm18 2.57-8.46 5.48a1 1 0 0 1-1.08 0L3 10.07v6.43h18v-6.43Z"/>
+                                </svg>
+                            </span>
+                            <span data-i18n="social.email">Email</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/966595824433" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" data-i18n-attr="aria-label:social.whatsapp">
+                            <span class="icon-frame">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M20.52 3.48A11.8 11.8 0 0 0 12.07 0C5.57 0 .29 5.27.29 11.77c0 2.07.54 4.09 1.56 5.86L0 24l6.54-1.72a11.74 11.74 0 0 0 5.53 1.41h.01c6.49 0 11.78-5.28 11.78-11.78 0-3.15-1.22-6.1-3.34-8.43Zm-8.45 18.2h-.01a9.8 9.8 0 0 1-4.99-1.36l-.36-.21-3.88 1.02 1.04-3.79-.24-.39a9.76 9.76 0 0 1-1.5-5.18c0-5.42 4.41-9.83 9.84-9.83 2.62 0 5.08 1.02 6.93 2.88a9.73 9.73 0 0 1 2.88 6.95c0 5.42-4.41 9.82-9.81 9.82Zm5.39-7.34c-.29-.15-1.71-.84-1.98-.93-.26-.1-.45-.15-.64.15-.19.29-.74.93-.91 1.12-.17.19-.34.22-.63.08-.29-.15-1.22-.45-2.33-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.44.13-.59.14-.14.29-.34.44-.51.15-.17.19-.29.29-.49.09-.19.05-.37-.02-.51-.07-.15-.64-1.55-.88-2.12-.23-.56-.47-.49-.64-.5l-.54-.01c-.19 0-.5.07-.77.37-.26.29-1 1-.99 2.44 0 1.43 1.03 2.81 1.18 3 .15.19 2.02 3.12 4.98 4.25.7.3 1.25.48 1.68.62.71.22 1.35.19 1.86.12.57-.08 1.71-.7 1.95-1.38.24-.68.24-1.26.17-1.38-.07-.12-.26-.2-.55-.34Z"/>
+                                </svg>
+                            </span>
+                            <span data-i18n="social.whatsapp">WhatsApp</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="assets/File/Omar%20Alshehri%20CV.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume" data-i18n-attr="aria-label:social.resume">
+                            <span class="icon-frame">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M6.5 2h7.95L20 7.55V20.5a1.5 1.5 0 0 1-1.5 1.5h-12A1.5 1.5 0 0 1 5 20.5v-17A1.5 1.5 0 0 1 6.5 2ZM14 4.4v4.1h4.1L14 4.4ZM7 4v16h11V10h-4.5A1.5 1.5 0 0 1 12 8.5V4H7Zm2 4.7h3v1.6H9V8.7Zm0 3.3h7v1.6H9V12Zm0 3.3h7v1.6H9v-1.6Z"/>
+                                </svg>
+                            </span>
+                            <span data-i18n="social.resume">Resume</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <section class="section-block" id="projects">
+                <div class="section-title">
+                    <h2 data-i18n="projects.title">Projects</h2>
+                </div>
+
+                <div class="project-tabs" role="tablist" aria-label="Project categories" data-i18n-attr="aria-label:projects.categories">
+                    <button class="tab-btn active" type="button" data-target="websites" aria-pressed="true" data-i18n="projects.websites">Websites</button>
+                    <button class="tab-btn" type="button" data-target="games" aria-pressed="false" data-i18n="projects.games">Games</button>
+                    <button class="tab-btn" type="button" data-target="systems" aria-pressed="false" data-i18n="projects.systems">Systems</button>
+                </div>
+
+                <div class="tab-panel active" id="websites" data-category="websites">
+                    <article class="panel featured-project">
+                        <div class="featured-copy">
+                            <div class="project-card-top">
+                                <span class="project-number">01</span>
+                                <p class="tag" data-i18n="projects.personalProject">Personal Project</p>
+                            </div>
+                            <h3 data-i18n="project.velonweb">VelonWeb</h3>
+                            <p data-i18n="projects.velonwebDescription">
+                                Founded in 2024, VelonWeb is my own creative web project where I design and
+                                develop responsive websites with a clean visual identity. It represents how I
+                                approach real-world web work: thoughtful layout, strong presentation, and a
+                                focus on making each site feel professional and easy to use.
+                            </p>
+                            <a class="primary-btn" href="https://velonweb.com/en/home/" target="_blank" rel="noopener noreferrer">
+                                <span data-i18n="projects.visitWebsite">Visit Website</span>
+                            </a>
+                        </div>
+                        <div class="featured-media">
+                            <img src="assets/images/optimized/velonweb-homepage.jpg" width="1400" height="874" alt="VelonWeb homepage screenshot" data-i18n-attr="alt:project.velonwebAlt" loading="lazy" decoding="async">
+                        </div>
+                    </article>
+
+                    <div class="project-grid">
+                        <article class="project-card panel accent-health">
+                            <img src="assets/images/optimized/shumos-homepage.jpg" width="1400" height="875" alt="Shumos Care Physiotherapy homepage screenshot" data-i18n-attr="alt:project.shumosAlt" loading="lazy" decoding="async">
+                            <div class="project-body">
+                                <div class="project-card-top">
+                                    <span class="project-number">02</span>
+                                    <span class="project-badge" data-i18n="badge.healthcare">Healthcare</span>
+                                </div>
+                                <h3 data-i18n="project.shumos">Shumos Care Physiotherapy</h3>
+                                <a class="primary-btn" href="https://shumca.com/en/" target="_blank" rel="noopener noreferrer"><span data-i18n="projects.visitWebsite">Visit Website</span></a>
+                            </div>
+                        </article>
+
+                        <article class="project-card panel accent-logistics">
+                            <img src="assets/images/optimized/ornava-homepage.jpg" width="1400" height="875" alt="Ornava Logistics homepage screenshot" data-i18n-attr="alt:project.ornavaAlt" loading="lazy" decoding="async">
+                            <div class="project-body">
+                                <div class="project-card-top">
+                                    <span class="project-number">03</span>
+                                    <span class="project-badge" data-i18n="badge.logistics">Logistics</span>
+                                </div>
+                                <h3 data-i18n="project.ornava">Ornava Logistics</h3>
+                                <a class="primary-btn" href="https://ornavalogistics.com/" target="_blank" rel="noopener noreferrer"><span data-i18n="projects.visitWebsite">Visit Website</span></a>
+                            </div>
+                        </article>
+
+                        <article class="project-card panel accent-legal">
+                            <img src="assets/images/optimized/ruba-homepage.jpg" width="1400" height="875" alt="Ruba Law and Legal Consulting homepage screenshot" data-i18n-attr="alt:project.rubaAlt" loading="lazy" decoding="async">
+                            <div class="project-body">
+                                <div class="project-card-top">
+                                    <span class="project-number">04</span>
+                                    <span class="project-badge" data-i18n="badge.legal">Legal</span>
+                                </div>
+                                <h3 data-i18n="project.ruba">Ruba Law &amp; Legal Consulting</h3>
+                                <a class="primary-btn" href="https://ruba-law.com/" target="_blank" rel="noopener noreferrer"><span data-i18n="projects.visitWebsite">Visit Website</span></a>
+                            </div>
+                        </article>
+
+                        <article class="project-card panel accent-legal">
+                            <img src="assets/images/optimized/rowad-homepage.jpg" width="1400" height="875" alt="Rowad Al-Najah Law homepage screenshot" data-i18n-attr="alt:project.rowadAlt" loading="lazy" decoding="async">
+                            <div class="project-body">
+                                <div class="project-card-top">
+                                    <span class="project-number">05</span>
+                                    <span class="project-badge" data-i18n="badge.legal">Legal</span>
+                                </div>
+                                <h3 data-i18n="project.rowad">Rowad Al-Najah Law</h3>
+                                <a class="primary-btn" href="https://rowadlaw.sa/" target="_blank" rel="noopener noreferrer"><span data-i18n="projects.visitWebsite">Visit Website</span></a>
+                            </div>
+                        </article>
+
+                        <article class="project-card panel accent-health">
+                            <img src="assets/images/optimized/pioneers-homepage.jpg" width="1400" height="875" alt="Pioneers Law and Healthcare homepage screenshot" data-i18n-attr="alt:project.pioneersAlt" loading="lazy" decoding="async">
+                            <div class="project-body">
+                                <div class="project-card-top">
+                                    <span class="project-number">06</span>
+                                    <span class="project-badge" data-i18n="badge.healthLegal">Health + Legal</span>
+                                </div>
+                                <h3 data-i18n="project.pioneers">Pioneers Law and Healthcare</h3>
+                                <a class="primary-btn" href="https://pionexs.com/" target="_blank" rel="noopener noreferrer"><span data-i18n="projects.visitWebsite">Visit Website</span></a>
+                            </div>
+                        </article>
+
+                        <article class="project-card panel accent-craft">
+                            <img src="assets/images/optimized/marssa-homepage.jpg" width="1400" height="875" alt="MARSSA POTTERY homepage screenshot" data-i18n-attr="alt:project.marssaAlt" loading="lazy" decoding="async">
+                            <div class="project-body">
+                                <div class="project-card-top">
+                                    <span class="project-number">07</span>
+                                    <span class="project-badge" data-i18n="badge.craft">Craft</span>
+                                </div>
+                                <h3 data-i18n="project.marssa">MARSSA POTTERY</h3>
+                                <a class="primary-btn" href="https://marsaaladl.com/" target="_blank" rel="noopener noreferrer"><span data-i18n="projects.visitWebsite">Visit Website</span></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="tab-panel" id="games" data-category="games" hidden>
+                    <article class="panel construction-panel">
+                        <p class="tag warning-tag" data-i18n="projects.underConstruction">Under Construction</p>
+                        <h3 data-i18n="projects.gamesPortfolio">Games Portfolio</h3>
+                        <p data-i18n="projects.gamesDescription">
+                            This area is reserved for future game projects and interactive experiments. New quests
+                            will appear here once development milestones are complete.
+                        </p>
+                        <div class="construction-lights" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="tab-panel" id="systems" data-category="systems" hidden>
+                    <article class="panel construction-panel">
+                        <p class="tag warning-tag" data-i18n="projects.comingSoon">Coming Soon</p>
+                        <h3 data-i18n="projects.systemsPortfolio">Systems Portfolio</h3>
+                        <p data-i18n="projects.systemsDescription">
+                            System-based projects will be added here in a future update, including more technical
+                            work focused on architecture, workflows, and scalable problem solving.
+                        </p>
+                        <div class="construction-lights" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section-block" id="contact">
+                <div class="section-title">
+                    <h2 data-i18n="contact.title">Contact</h2>
+                </div>
+
+                <div class="contact-form-wrap">
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/mgvyjqyk" method="POST" novalidate>
+                        <label for="nameInput"><span data-i18n="contact.name">Name</span> <span>*</span></label>
+                        <input id="nameInput" name="name" type="text" placeholder="Name" data-i18n-attr="placeholder:contact.namePlaceholder" required>
+                        <p id="nameError" class="field-error hidden"></p>
+
+                        <label for="phoneInput"><span data-i18n="contact.phone">Phone Number</span> <span>*</span></label>
+                        <input id="phoneInput" name="phone" type="tel" placeholder="05..." data-i18n-attr="placeholder:contact.phonePlaceholder" inputmode="tel" required>
+                        <p id="phoneError" class="field-error hidden"></p>
+
+                        <label for="emailInput"><span data-i18n="contact.email">Email</span> <span>*</span></label>
+                        <input id="emailInput" name="email" type="email" placeholder="your@email.com" data-i18n-attr="placeholder:contact.emailPlaceholder" required>
+                        <p id="emailError" class="field-error hidden"></p>
+
+                        <label for="messageInput"><span data-i18n="contact.message">Message</span> <span>*</span></label>
+                        <textarea id="messageInput" name="message" rows="5" placeholder="Write your message here" data-i18n-attr="placeholder:contact.messagePlaceholder" required></textarea>
+                        <p id="messageError" class="field-error hidden"></p>
+
+                        <button class="primary-btn" type="submit"><span data-i18n="contact.send">Send</span></button>
+                        <p id="formSuccess" class="form-success hidden" role="status"></p>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; <span data-i18n="hero.name">Omar Alshehri</span></p>
+        </footer>
+    </div>
+
+    <button id="backToTopBtn" class="back-to-top hidden" type="button" aria-label="Back to top" data-i18n-attr="aria-label:backToTop">
+        ↑
+    </button>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
